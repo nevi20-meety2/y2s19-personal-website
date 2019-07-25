@@ -1,0 +1,108 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="personalwebsite.css">
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  left:640px;
+  top: 790px;
+ 
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #9CEC5B;
+}
+li a:hover:not(.active) {
+  background-color: #9CEC5B;
+}
+
+.active {
+  background-color: #D62828;
+}
+</style>
+</head>
+<body id="back">
+
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="file:///home/student/Documents/y2s19-personal-website/contact.html">Contact</a></li>
+  <li><a href="#media">Media</a></li>
+  <li><a href="#Gallery">Gallery</a></li>
+  <li><a href="#thanks">Thanks</a></li>
+  <li><a href="#clients">Clients</a></li>
+  <li><a href="#team">Team</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+<div id="imgp">
+<img src="https://static.wixstatic.com/media/fa35ac_d38784820f013d507c6713447bbb89a3.png/v1/fill/w_320,h_130,al_c,q_80,usm_0.66_1.00_0.01/fa35ac_d38784820f013d507c6713447bbb89a3.webp">
+</div>
+
+<p id = below>דרורים הפקות ואירועים רחוב חנה בבלי 38 ירושלים מיקוד 97583 | טל': 025834168 פקס:025834168</p>
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {
+  display:none; 
+  position: relative;
+  top: 50px;
+}
+</style>
+<body>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="https://static.wixstatic.com/media/fa35ac_65a720eeaa7949959dc1791a167ee497~mv2_d_4970_3115_s_4_2.jpg/v1/fill/w_1150,h_721,al_c,q_90,usm_0.66_1.00_0.01/fa35ac_65a720eeaa7949959dc1791a167ee497~mv2_d_4970_3115_s_4_2.webp" style="width:100%">
+  <img class="mySlides" src="https://static.wixstatic.com/media/fa35ac_1f936e855bc84e54933998ce57f4af3f~mv2_d_5846_3665_s_4_2.jpg/v1/fill/w_1150,h_721,al_c,q_90,usm_0.66_1.00_0.01/fa35ac_1f936e855bc84e54933998ce57f4af3f~mv2_d_5846_3665_s_4_2.webp" style="width:100%">
+  <img class="mySlides" src="https://static.wixstatic.com/media/fa35ac_a78e1f25e28b40479a1853e31118e3be.jpg/v1/fill/w_1080,h_721,al_c,q_90,usm_0.66_1.00_0.01/fa35ac_a78e1f25e28b40479a1853e31118e3be.webp" style="width:100%">
+  <img class="mySlides" src="https://static.wixstatic.com/media/fa35ac_2f0b774081d924e688a259490169a4b7.jpg/v1/fill/w_1084,h_721,al_c,q_90,usm_0.66_1.00_0.01/fa35ac_2f0b774081d924e688a259490169a4b7.webp" style="width:100%">
+  <img class="mySlides" src="https://static.wixstatic.com/media/fa35ac_b3283d6ee02d4372959042905a079de5.jpg/v1/fill/w_1082,h_721,al_c,q_90,usm_0.66_1.00_0.01/fa35ac_b3283d6ee02d4372959042905a079de5.webp" style="width:100%">
+  <img class="mySlides" src="https://static.wixstatic.com/media/fa35ac_9aa5e076527440038497212bfb316dca.jpg/v1/fill/w_1082,h_721,al_c,q_90,usm_0.66_1.00_0.01/fa35ac_9aa5e076527440038497212bfb316dca.webp" style="width:100%">
+  <img class="mySlides" src="https://static.wixstatic.com/media/fa35ac_8c750e5a974a45459b62e54e648789f3.jpg/v1/fill/w_1081,h_721,al_c,q_90,usm_0.66_1.00_0.01/fa35ac_8c750e5a974a45459b62e54e648789f3.webp" style="width:100%">
+  <img class="mySlides" src="https://static.wixstatic.com/media/fa35ac_3e4f41a99f2845e08d079e655e9c0a4e.jpg/v1/fill/w_1082,h_721,al_c,q_90,usm_0.66_1.00_0.01/fa35ac_3e4f41a99f2845e08d079e655e9c0a4e.webp" style="width:100%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+</body>
+</html>

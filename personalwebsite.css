@@ -1,0 +1,21 @@
+#imgp{
+	position: fixed;
+	left: 1580px;
+}
+
+#below{
+	font-family: "Arial";
+	text-align: center;
+	position: relative;
+	top: 820px;
+	font-size: 20px;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+body  {
+  background-image: url("back.gif");
+  background-size: 2000px;
+}
